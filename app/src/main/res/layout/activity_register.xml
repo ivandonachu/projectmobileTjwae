@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.RegisterActivity"
+    android:orientation="vertical"
+    android:background="@drawable/gradient1">
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🚍"
+        android:textSize="80dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silahkan Mendaftar"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masukan Data yang sesuai!"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_marginTop="25dp"
+        android:id="@+id/edtText_usernameRegist"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:hint="‍username"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/edtText_passwordRegist"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/edtText_passwordConfRegist"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:hint="Confrm Password"
+        android:inputType="textPassword"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/btn_registerRegist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="register"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AYO Naik Trans Jogja!"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="by signing up, you agree to our Terms and Privacy Olicy"
+        android:textSize="13dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp" />
+
+</LinearLayout>

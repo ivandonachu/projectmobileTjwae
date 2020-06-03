@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.LoginActivity"
+    android:orientation="vertical"
+    android:background="@drawable/gradient1">
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TJ WAE"
+        android:textColor="@android:color/black"
+        android:textSize="28dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🚍"
+        android:textSize="80dp"
+        android:layout_gravity="center"/>
+
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/edtText_username"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:hint=" ‍username"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/edtText_password"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:hint=" password"
+        android:inputType="textPassword"
+        android:layout_gravity="center"/>
+
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginLeft="270dp" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    Belum Punya Akun?  "
+        android:textSize="15dp"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="15dp" />
+
+</LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AYO Naik Trans Jogja!"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>
